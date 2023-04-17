@@ -15,6 +15,7 @@ class LaundryPlantController extends Controller
 
         return view('menu_linen/laundry_plant/index', compact('data'));
     }
+    //blabla
 
     public function create()
     {
