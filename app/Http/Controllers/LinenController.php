@@ -31,7 +31,6 @@ class LinenController extends Controller
         $data['linen_category'] = LinenCategory::all();
         // $data['ownership'] = Ownership::all(); disable
         return view('menu_linen/total_linen/create', $data);
-        //blabla
     }
 
     public function create_save(Request $request)
